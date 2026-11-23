@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --brand-ink: #28170b;
+  --brand-purple: #8733b5;
+  --brand-lavender: #bf85ff;
+  --brand-cream: #fffaf1;
+  --brand-berry: #da2f2e;
+}
+html, body { height: 100%; }
+body { @apply bg-cream-50 text-stone-900 antialiased; -webkit-tap-highlight-color: transparent; }
+h1, h2, h3 { color: var(--brand-ink); font-family: Georgia, 'Times New Roman', serif; }
+::selection { background: #e1caff; color: #321344; }
